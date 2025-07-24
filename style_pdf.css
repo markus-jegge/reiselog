@@ -1,0 +1,117 @@
+/* PDF Print Tags */
+html, body {
+   margin:0; padding:0;
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:11pt; /* 10pt print blog files: index.htm*/
+                   /* 11pt print txt_files.htm and 00Prolog, 99Epilog*/   
+   background:#fff; color:#000;
+   text-align:center;  /* Zentriert Block alte Browser */
+}
+
+h2 {
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:13pt;
+}
+
+h3 {
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:12pt;
+}
+
+h4 {
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:11pt;
+}
+
+h5 {
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:10pt;
+}
+
+table, tr, td {
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:10pt;
+   background-color:#FFFFFF;
+}
+
+/* IDs */
+#blog {
+        width:700px; 
+        margin:20px auto;
+        border:0px solid black; 
+        }
+#blogend {
+        margin:40px 10px 60px 50px;
+        text-align:left;
+        }
+#blogend img {
+        border-width:0px;
+        }
+
+/* Class */
+.blogtxt { 
+        padding:10px 30px; 
+        background-color:white;
+        color:black;
+        text-align:justify;
+        }
+.body {
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:8pt;
+   background-color:#6699FF;
+}
+
+.bodyimage {
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:8pt;
+   background-color:#FFFFFF;
+   background-image:url(img/backimg.gif);
+   background-repeat:no-repeat;
+   background-position:0px 0px;
+}
+
+.backdark {
+   background-color:#00009F;
+}
+
+.backbright {
+   background-color:#FFFFFF;
+   color:#000000;
+}
+
+.bright {
+   color:#FFDF00;
+   font-weight:bold;
+}
+
+.smal {
+   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size:8pt;
+   margin-left:0px;
+   margin-right:0px;
+}
+
+/* Pseudo */
+a:link
+{
+   text-decoration:none;
+   color:#00f;
+}  
+ 
+a:visited
+{
+   text-decoration:none;
+   color:#00f;
+}
+
+a:active
+{
+   text-decoration:none;
+   color:#fff;
+}
+
+a:hover
+{
+   text-decoration:none;
+   color:#fff;
+}
