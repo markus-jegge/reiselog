@@ -1,1 +1,1 @@
-Simple template for HTML / CSS Website created with Pspad Editor
+Simple template for HTML / CSS Website coded with Pspad Editor
